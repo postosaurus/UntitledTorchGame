@@ -1,38 +1,38 @@
 using System;
 using UnityEngine;
 
+//eventArgs
+public class vector3Arg : EventArgs {
+    public Vector3 Velocity;
+}
+
 public class TightKeyInput : MonoBehaviour, IInputController {
 
     //interface properties
     public FrameInput Input { get; private set; }
 
     //events
-    public static event EventHandler<vector3Arg> OnUpdateLastPosition;
-
-    //eventArgs
-    public class vector3Arg : EventArgs {
-        public Vector3 Velocity;
-    }
+    public event EventHandler<vector3Arg> OnUpdateLastPosition;
 
     
 
     //class
     private IMovementController _moveController;
-    private IJumpController _jumpController;
 
     public Vector3 Velocity;
     public Vector3 _lastPosition;
 
+
     private void Awake() {
         _moveController = GetComponent<IMovementController>();
-        _jumpController = GetComponent<IJumpController>();
     }
 
     private void Update() {
 
         Velocity = (transform.position - _lastPosition) / Time.deltaTime;
-        _lastPosition = transform.position;
-        OnUpdateLastPosition?.Invoke(this, new vector3Arg { Velocity = this.Velocity } );
+        _moveController.GetVelocity(Velocity);
+        _lastPosition = transform.position;        
+        
 
         Input = new FrameInput {
             X = UnityEngine.Input.GetAxisRaw("Horizontal"),
@@ -55,5 +55,9 @@ public class TightKeyInput : MonoBehaviour, IInputController {
 
     public Vector3 GetVelocity() {
         return Velocity;
+    }
+
+    public Vector3 GetLastPosition() {
+        return _lastPosition;
     }
 }
