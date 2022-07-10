@@ -10,20 +10,19 @@ public class TightAnimationController : MonoBehaviour {
     private SpriteRenderer _spriteRenderer;
 
     private void Awake() {            
-        _movementController = GetComponent<IMovementController>();
+        _movementController = GetComponentInParent<IMovementController>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
 
         LoadAnimations();
     }
 
     private void Start() {
-        PlayAnimation(AnimationKey.IDLE);            
-        _movementController = GetComponentInParent<IMovementController>();
+        // PlayAnimation(AnimationKey.IDLE);                    
     }
 
-    private void Update() {
+    private void Update() {        
     if (_movementController == null) return;
-
+        
         if (_movementController.Velocity.x != 0) transform.localScale = new Vector3(_movementController.Velocity.x < 0 ? -1 : 1, 1, 1);
 
         if (_movementController.Grounded) {

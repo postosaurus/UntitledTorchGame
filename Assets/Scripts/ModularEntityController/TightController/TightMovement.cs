@@ -19,15 +19,6 @@ public class TightMovement : MonoBehaviour, IMovementController {
         }        
     }
 
-    //eventlistener
-    private void SUB_OnUpdateLastPosition(object sender, TightKeyInput.vector3Arg e) {
-        this.Velocity = e.Velocity;
-    }
-
-    private void SUB_OnCoyoteIsUsable(object sender, EventArgs e) {
-        _coyoteUsuable = true;           
-    }
-
     private FrameInput _frameInput;
     private ICollider _colliderController;
 
@@ -63,16 +54,20 @@ public class TightMovement : MonoBehaviour, IMovementController {
     private float _currentHorizontalSpeed, _currentVerticalSpeed;    
     private float _timeLeftGrounded;
 
+    private IInputController _inputController;
+
     private bool _active;
     private void Awake() {
         Invoke(nameof(Activate), 0.5f);     
         _colliderController = GetComponent<ICollider>();
+        _inputController = GetComponent<IInputController>();
     }
     void Activate() => _active = true;
 
     private void Start() {
-        TightKeyInput.OnUpdateLastPosition += SUB_OnUpdateLastPosition;
-        TightCollsion.OnCoyoteIsUseable += SUB_OnCoyoteIsUsable;
+        
+        // _inputController.OnNewUpdate += SUB_OnUpdateLastPosition;
+        // TightCollsion.OnCoyoteIsUseable += SUB_OnCoyoteIsUsable;
     }
 
     private void Update() {
@@ -86,6 +81,14 @@ public class TightMovement : MonoBehaviour, IMovementController {
         CalculateJump();
 
         MovePlayer();
+    }
+
+    public void GetVelocity(Vector3 velocity) {
+        this.Velocity = velocity;
+    }
+
+    public void TriggerCoyote() {
+        _coyoteUsuable = true;
     }
 
     public void CaclulateApexJump() {
@@ -111,7 +114,7 @@ public class TightMovement : MonoBehaviour, IMovementController {
     }
 
     private void CalculateJump() {
-        if (_frameInput.JumpDown) {        
+        if (_frameInput.JumpDown && CanUseCoyote || HasBufferedJump) {        
             _currentVerticalSpeed = _jumpHeight;
             _endedJumpEarly = false;
             _coyoteUsuable = false;        

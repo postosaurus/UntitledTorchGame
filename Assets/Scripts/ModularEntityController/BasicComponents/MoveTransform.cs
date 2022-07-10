@@ -35,4 +35,12 @@ public class MoveTransform : MonoBehaviour, IMovementController {
     public Vector3 GetVelocity() {
         return Velocity;
     }
+
+    public void GetVelocity(Vector3 velocity) {
+        this.Velocity = velocity;
+    }
+
+    public void TriggerCoyote() {
+        return;
+    }
 }

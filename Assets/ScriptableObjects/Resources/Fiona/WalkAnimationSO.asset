@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae8584c5ddd53fcd5b532a0ff42a4f34, type: 3}
+  m_Name: WalkAnimationSO
+  m_EditorClassIdentifier: 
+  key: 1
+  frames:
+  - {fileID: -1607017426, guid: 972fcdb196c372d55b7eaaddd3b764f0, type: 3}
+  - {fileID: -972652297, guid: 972fcdb196c372d55b7eaaddd3b764f0, type: 3}
+  - {fileID: -891215038, guid: 972fcdb196c372d55b7eaaddd3b764f0, type: 3}
+  - {fileID: 311871582, guid: 972fcdb196c372d55b7eaaddd3b764f0, type: 3}
+  - {fileID: -699483156, guid: 972fcdb196c372d55b7eaaddd3b764f0, type: 3}
+  - {fileID: -1449145418, guid: 972fcdb196c372d55b7eaaddd3b764f0, type: 3}
+  - {fileID: -145206170, guid: 972fcdb196c372d55b7eaaddd3b764f0, type: 3}
+  isLooping: 1
+  interval: 0.12

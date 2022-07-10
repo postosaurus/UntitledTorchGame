@@ -10,4 +10,7 @@ public interface IMovementController {
 
     public Vector3 Velocity { get; }
     void GetInput(FrameInput input);
+
+    void GetVelocity(Vector3 velocity);
+    void TriggerCoyote();
 }

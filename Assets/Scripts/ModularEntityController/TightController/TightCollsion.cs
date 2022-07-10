@@ -7,8 +7,7 @@ using UnityEngine;
 public class TightCollsion : MonoBehaviour , ICollider{
 
     //events
-    public static event EventHandler OnCoyoteIsUseable;
-
+    // public static event EventHandler OnCoyoteIsUseable; 
 
     [Header("COLLSION")]
     [SerializeField] private Bounds _playerBounds;
@@ -23,6 +22,12 @@ public class TightCollsion : MonoBehaviour , ICollider{
     private float _timeLeftGrounded;
     private bool _landingThisFrame;
 
+    private IMovementController _movementController;
+
+    private void Awake() {
+        _movementController = GetComponent<IMovementController>();
+    }
+
     public void RunCollisionChecks() {
         CalculateRayRanged();
 
@@ -33,7 +38,8 @@ public class TightCollsion : MonoBehaviour , ICollider{
         else if (!_colDown && groundedCheck) {
 
             //event
-            OnCoyoteIsUseable?.Invoke(this, EventArgs.Empty);
+            // OnCoyoteIsUseable?.Invoke(this, EventArgs.Empty);
+            _movementController.TriggerCoyote();
 
 
             _landingThisFrame = true;

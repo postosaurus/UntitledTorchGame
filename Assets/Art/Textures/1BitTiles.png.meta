@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 972fcdb196c372d55b7eaaddd3b764f0
+guid: 0944dc4f873710333a56986af84a1f68
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -49,7 +49,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 4
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -128,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fiona Spritesheet_0
+      name: 1BitTiles_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 66
+        y: 64
         width: 16
-        height: 22
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7465f464911e8131da20ad35a30af71f
-      internalID: -348376591
+      spriteID: 8f791610735c6e8029ca3ee3056cd262
+      internalID: 1798614253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fiona Spritesheet_1
+      name: 1BitTiles_1
       rect:
         serializedVersion: 2
         x: 16
-        y: 66
+        y: 64
         width: 16
-        height: 22
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,146 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3d2ebdcbbd0a79139ba63a9f56b4469
-      internalID: -1404746969
+      spriteID: a3b4efb2f0cff05108749a633881efe7
+      internalID: 2043660038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fiona Spritesheet_2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 66
-        width: 16
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66ebfaaad596173639a323c44cb877ff
-      internalID: -850954448
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fiona Spritesheet_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 66
-        width: 16
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c64cf82109ff20c5b3a21d1832287e5
-      internalID: 1636213786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fiona Spritesheet_4
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 66
-        width: 16
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 365b8749c11b02b2682b5a3a82d235c3
-      internalID: -976100179
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fiona Spritesheet_5
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 66
-        width: 16
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c6451dd6b90a75345bb18edcd0557786
-      internalID: -1962350789
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fiona Spritesheet_6
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 66
-        width: 16
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5e12ef84442f417baea5fcf58358fe2
-      internalID: -573684063
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fiona Spritesheet_7
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 66
-        width: 16
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c08771b9aff219b69a97c8e0b89f440
-      internalID: 741335516
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fiona Spritesheet_8
+      name: 1BitTiles_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 44
+        y: 48
         width: 16
-        height: 22
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64153390e7802f72cb33333f23fb1cb8
-      internalID: -1607017426
+      spriteID: dfb2087a684550dc1a99ae1bf95be5f3
+      internalID: 767287381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fiona Spritesheet_9
+      name: 1BitTiles_3
       rect:
         serializedVersion: 2
         x: 16
-        y: 44
+        y: 48
         width: 16
-        height: 22
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d667be816fc3defa4a65b25cc9955934
-      internalID: -972652297
+      spriteID: a4ea7299c88716e70b5c7ab96596f915
+      internalID: 711482584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fiona Spritesheet_10
+      name: 1BitTiles_4
       rect:
         serializedVersion: 2
         x: 32
-        y: 44
+        y: 48
         width: 16
-        height: 22
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d971e8006f19246cca56749516e87f0b
-      internalID: -891215038
+      spriteID: 1d8ce65f8eb6eb08a86b395277ebcef8
+      internalID: 2069930184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fiona Spritesheet_11
+      name: 1BitTiles_5
       rect:
         serializedVersion: 2
         x: 48
-        y: 44
+        y: 48
         width: 16
-        height: 22
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,20 +247,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1555b0ccd1aaa210aac4a07316cc2c7
-      internalID: 311871582
+      spriteID: b17c74c005c05df7684cc47ce95c9bd2
+      internalID: -829063777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fiona Spritesheet_12
+      name: 1BitTiles_6
       rect:
         serializedVersion: 2
         x: 64
-        y: 44
+        y: 48
         width: 16
-        height: 22
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,62 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6396b56106e88b15dbdbd1703dffb1d1
-      internalID: -699483156
+      spriteID: d20a4ff1f089498cfa919596f64bf2a8
+      internalID: -1365262654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fiona Spritesheet_13
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 44
-        width: 16
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f9734c0d9686a9542b3c68fa6b451ad6
-      internalID: -1449145418
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fiona Spritesheet_14
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 44
-        width: 16
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 25ee82c9e94076a03bfc7639d4d3404f
-      internalID: -145206170
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fiona Spritesheet_15
+      name: 1BitTiles_7
       rect:
         serializedVersion: 2
         x: 0
-        y: 22
+        y: 32
         width: 16
-        height: 22
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -457,20 +289,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e7058f2b75b4fd11adf540b1f05e756
-      internalID: 1071187010
+      spriteID: fc890603c2a285c59a6df6df729841a0
+      internalID: 390991589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fiona Spritesheet_16
+      name: 1BitTiles_8
       rect:
         serializedVersion: 2
         x: 16
-        y: 22
+        y: 32
         width: 16
-        height: 22
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -478,20 +310,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b9e3c26ef7d42adea39115452abf72d
-      internalID: -1365050595
+      spriteID: a4ec68e3cfa8213a9aedf4026b63cbe8
+      internalID: 685614965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fiona Spritesheet_17
+      name: 1BitTiles_9
       rect:
         serializedVersion: 2
         x: 32
-        y: 22
+        y: 32
         width: 16
-        height: 22
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -499,20 +331,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b74c8fab9eebe35bab8eaa9944af25b
-      internalID: -2050349054
+      spriteID: 5bd40468be27231b2bc42dfe8bed4b08
+      internalID: -555198184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fiona Spritesheet_18
+      name: 1BitTiles_10
       rect:
         serializedVersion: 2
         x: 48
-        y: 22
+        y: 32
         width: 16
-        height: 22
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -520,20 +352,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08cd358772a70c477845dda9936a8125
-      internalID: 2137636981
+      spriteID: ef60d140cb98a962180e65b5d04b13d7
+      internalID: -47305094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fiona Spritesheet_19
+      name: 1BitTiles_11
       rect:
         serializedVersion: 2
         x: 64
-        y: 22
+        y: 32
         width: 16
-        height: 22
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -541,20 +373,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 627c944bac28f23c48d8423b73cda942
-      internalID: -761920729
+      spriteID: 3a767f1984bc2d36b9f7e6f87232f0f7
+      internalID: 333628767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fiona Spritesheet_20
+      name: 1BitTiles_12
       rect:
         serializedVersion: 2
-        x: 80
-        y: 22
+        x: 0
+        y: 16
         width: 16
-        height: 22
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -562,20 +394,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57f501edfafa69164b24d46fea344c40
-      internalID: 1208391652
+      spriteID: 51964553fb131e6c88c22c807d5b029e
+      internalID: 1106949777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fiona Spritesheet_21
+      name: 1BitTiles_13
       rect:
         serializedVersion: 2
-        x: 96
-        y: 22
+        x: 16
+        y: 16
         width: 16
-        height: 22
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -583,41 +415,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bf537852c86c4c8d97cc80111f23763
-      internalID: -1526392058
+      spriteID: 7257aaf74afd900b18500b9ad6392d54
+      internalID: -1682833849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fiona Spritesheet_22
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 22
-        width: 16
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4985f34f9a43adb10a8ac1d657908b2c
-      internalID: 231056800
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fiona Spritesheet_23
+      name: 1BitTiles_14
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 16
-        height: 22
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -625,20 +436,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e421d4cc21808f6058fff2e841cbedc8
-      internalID: 2049219145
+      spriteID: db5ddf969d3d7f79ba0524eb5f5fadf6
+      internalID: 65323546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fiona Spritesheet_24
+      name: 1BitTiles_15
       rect:
         serializedVersion: 2
         x: 16
         y: 0
         width: 16
-        height: 22
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -646,8 +457,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a015a82d353bdee4b82dff13c90ab66
-      internalID: 1888845965
+      spriteID: e859d08ed4afd41c78d262d6bc80be5d
+      internalID: 1237565971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1BitTiles_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dde6a5a826ffffe8a7b79ca7eaefc04
+      internalID: -142741086
       vertices: []
       indices: 
       edges: []
@@ -663,31 +495,23 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Fiona Spritesheet_14: -145206170
-      Fiona Spritesheet_16: -1365050595
-      Fiona Spritesheet_22: 231056800
-      Fiona Spritesheet_5: -1962350789
-      Fiona Spritesheet_12: -699483156
-      Fiona Spritesheet_15: 1071187010
-      Fiona Spritesheet_7: 741335516
-      Fiona Spritesheet_9: -972652297
-      Fiona Spritesheet_17: -2050349054
-      Fiona Spritesheet_23: 2049219145
-      Fiona Spritesheet_1: -1404746969
-      Fiona Spritesheet_2: -850954448
-      Fiona Spritesheet_19: -761920729
-      Fiona Spritesheet_8: -1607017426
-      Fiona Spritesheet_3: 1636213786
-      Fiona Spritesheet_20: 1208391652
-      Fiona Spritesheet_13: -1449145418
-      Fiona Spritesheet_11: 311871582
-      Fiona Spritesheet_10: -891215038
-      Fiona Spritesheet_0: -348376591
-      Fiona Spritesheet_24: 1888845965
-      Fiona Spritesheet_4: -976100179
-      Fiona Spritesheet_21: -1526392058
-      Fiona Spritesheet_6: -573684063
-      Fiona Spritesheet_18: 2137636981
+      1BitTiles_9: -555198184
+      1BitTiles_3: 711482584
+      1BitTiles_11: 333628767
+      1BitTiles_13: -1682833849
+      1BitTiles_10: -47305094
+      1BitTiles_4: 2069930184
+      1BitTiles_0: 1798614253
+      1BitTiles_16: -142741086
+      1BitTiles_5: -829063777
+      1BitTiles_1: 2043660038
+      1BitTiles_8: 685614965
+      1BitTiles_12: 1106949777
+      1BitTiles_15: 1237565971
+      1BitTiles_6: -1365262654
+      1BitTiles_7: 390991589
+      1BitTiles_2: 767287381
+      1BitTiles_14: 65323546
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
