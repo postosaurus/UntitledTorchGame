@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea789cd8f38c2d6b8a181631fa4da61f, type: 3}
+  m_Name: Aggro Glowworm Type SO
+  m_EditorClassIdentifier: 
+  nameString: Agrro glowworm
+  color: {r: 0.8113208, g: 0.4665931, b: 0.25640798, a: 1}
+  type: 2
+  frequency: 3
+  amplitude: 10
+  moveSpeed: 7
+  gather: 0
+  follow: 0
+  tempt: 0
+  flee: 4
+  avoid: 4
+  outOfRange: 4
+  chase: 3
+  detectionRange: 20
+  keepDistance: 3
